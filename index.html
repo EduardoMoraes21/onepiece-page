@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="https://imgs.search.brave.com/nn19tGL5wiOUHujCKIFye7pDTzYGXzG9d9cWJsxUMSI/rs:fit:300:300:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8tV3o3aW9UXy1J/VDQvVWdFZGI0a3gy/Z0kvQUFBQUFBQUFB/bTgvRTBTOWUzMVc5/YzQvczE2MDAvbXVn/aXdhcmFfZW1ibGVt/ZV92My5wbmc" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+
+		<link rel="stylesheet" href="./src/css/estilos.css">
+
+
+		<link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<title>One Piece</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/zeluffy.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="https://imgs.search.brave.com/nn19tGL5wiOUHujCKIFye7pDTzYGXzG9d9cWJsxUMSI/rs:fit:300:300:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8tV3o3aW9UXy1J/VDQvVWdFZGI0a3gy/Z0kvQUFBQUFBQUFB/bTgvRTBTOWUzMVc5/YzQvczE2MDAvbXVn/aXdhcmFfZW1ibGVt/ZV92My5wbmc" alt="logo chapéu Mario" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">INICIO</a></li>
+					<li><a href="#">DETALHES</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/One-Piece-Logo.png" alt="logo-onepiece" />
+				<p class="descricao">A série foca em Monkey D. Luffy, um jovem feito de borracha, que, inspirado em seu ídolo de infância, o poderoso pirata Shanks, o Ruivo, parte em uma jornada do mar do East Blue para encontrar o tesouro mítico, o One Piece, e proclamar-se o Rei dos Piratas.
+				</p>
+				<button class="botao-trailer">Veja o trailer</button>
+			</div>
+			<img class="luffy" src="./src/imagens/luffy.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/xmbxe0Jtxmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+		<script src="./src/script/script.js"></script>
+	</body>
+</html>
